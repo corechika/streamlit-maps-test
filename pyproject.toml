@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-maps-test"
+version = "0.1.0"
+description = ""
+authors = ["corechika <rconctmi121341@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.9.7 || >3.9.7,<3.13"
+geopandas = "^0.14.0"
+pandas = "^2.1.1"
+streamlit = "^1.27.1"
+folium = "^0.14.0"
+streamlit-folium = "^0.14.0"
+jupyterlab = "^4.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
